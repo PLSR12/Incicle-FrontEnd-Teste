@@ -71,7 +71,7 @@ export default function ModalLink ({ item }) {
           <Box sx={{ width: '100%' }}>
             <Box
               sx={{
-                mb: 1,
+                marginBottom: 1,
                 display: 'flex'
               }}
             >
@@ -96,7 +96,7 @@ export default function ModalLink ({ item }) {
               <Box
                 key={i}
                 sx={{
-                  mb: 1,
+                  marginBottom: 1,
                   display: 'flex',
                   justifyContent: 'space-between',
                   alignItems: 'center',
@@ -114,14 +114,14 @@ export default function ModalLink ({ item }) {
                   <Avatar
                     src={confirmation.avatar}
                     sx={{
-                      mr: 2,
+                      marginRight: 2,
                       width: 73,
                       height: 73,
                       borderRadius: 0
                     }}
                   />
 
-                  <Box sx={{ mt: -0.5 }}>
+                  <Box>
                     <Typography
                       fontSize={16}
                       fontWeight='bold'
@@ -141,7 +141,7 @@ export default function ModalLink ({ item }) {
                     <Typography
                       fontSize={12}
                       textAlign='center'
-                      p={0.25}
+                      padding={0.5}
                       color='primary'
                       sx={{
                         textTransform: 'uppercase',

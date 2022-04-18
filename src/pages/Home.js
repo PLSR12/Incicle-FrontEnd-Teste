@@ -139,8 +139,8 @@ export default function Home () {
                 </Typography>
 
                 <Typography
-                  mt={1.5}
-                  mb={3.25}
+                  marginTop={1.5}
+                  marginBottom={3.25}
                   textAlign='justify'
                   color='secondary'
                   fontWeight='light'
@@ -165,16 +165,16 @@ export default function Home () {
 
               <Box
                 sx={{
-                  mt: 1.5,
+                  marginTop: 1.5,
                   maxWidth: 278,
-                  borderRadius: 2,
+                  borderRadius: 1.2,
                   boxSizing: 'border-box',
                   padding: 1,
                   boxShadow: '2px 2px 5px #ccc',
                   backgroundColor: '#fdfdfd',
 
-                  '@media (max-width: 1023px)': { mt: 0 },
-                  '@media (max-width: 644px)': { mt: 2 }
+                  '@media (max-width: 1023px)': { marginTop: 0 },
+                  '@media (max-width: 644px)': { marginTop: 2 }
                 }}
               >
                 <Typography

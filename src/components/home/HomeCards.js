@@ -27,7 +27,7 @@ export default function HomeCards ({ item, data, setRefresh }) {
           <Avatar
             src={item.file.url}
             sx={{
-              mr: 2,
+              marginRight: 2,
               width: 73,
               height: 73,
               borderRadius: 0,
@@ -36,7 +36,7 @@ export default function HomeCards ({ item, data, setRefresh }) {
               '@media (max-width: 315px)': { display: 'none' }
             }}
           />
-          <Box sx={{ mt: -0.5 }}>
+          <Box sx={{ marginTop: -2 }}>
             <Typography
               fontSize={16}
               fontWeight='bold'
@@ -51,7 +51,7 @@ export default function HomeCards ({ item, data, setRefresh }) {
 
             <Box
               sx={{
-                mt: 0.5,
+                marginTop: 0.25,
                 display: 'flex',
                 flexDirection: 'row',
                 alignItems: 'center',
@@ -69,6 +69,7 @@ export default function HomeCards ({ item, data, setRefresh }) {
                 color='primary'
                 sx={{
                   padding: 0.25,
+                  marginRight:0.5,
                   backgroundColor:
                     item.type === 'event'
                       ? '#ee8686'
@@ -87,7 +88,6 @@ export default function HomeCards ({ item, data, setRefresh }) {
               {item.type !== 'event' ? null : (
                 <>
                   <Typography
-                    ml={0.5}
                     fontSize={9}
                     fontWeight='light'
                     color='secondary'
