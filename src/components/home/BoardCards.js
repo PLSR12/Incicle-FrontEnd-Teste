@@ -15,7 +15,7 @@ export default function BoardCards (props) {
   return (
     <Box
       sx={{
-        mt: 1,
+        marginTop: 1,
         padding: 0.5,
         backgroundColor: '#3489b11a'
       }}
@@ -26,7 +26,7 @@ export default function BoardCards (props) {
           justifyContent: 'space-between'
         }}
       >
-        <Typography mt={-0.25} fontSize={13} fontWeight={400} color='secondary'>
+        <Typography marginTop={-0.25} fontSize={13} fontWeight={400} color='secondary'>
           {item.title}
         </Typography>
 
