@@ -16,10 +16,10 @@ const theme = createTheme({
       styleOverrides: {
         root: {
           padding: 4,
-          margin: '34px auto !important',
-          maxWidth: '1206px !important',
+          margin: '34px auto',
+          maxWidth: '1206px',
 
-          '@media (max-width: 540px)': { width: '95% !important' }
+          '@media (max-width: 540px)': { width: '95%' }
         }
       }
     },
